@@ -1,12 +1,10 @@
 [package]
-name = "throbberous"
-version = "0.1.4"
+name = "dsplce-co-throbberous"
+version = "0.1.4-supabase-plus-0.8"
 edition = "2021"
-authors = ["trucizna"]
-description = "An async-native CLI progress bar and throbber (spinner) library for Rust."
+authors = ["trucizna", "v1olen <przemek@dsplce.co>"]
+description = "This is a fork of https://crates.io/crates/throbberous, go to the original repository if you want to use as a dep"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/SuitingRelic392/throbberous"
-homepage = "https://github.com/SuitingRelic392/throbberous"
 documentation = "https://docs.rs/throbberous"
 readme = "README.md"
 keywords = ["progress-bar", "spinner", "throbber", "async", "cli"]
@@ -27,4 +25,3 @@ tokio-test = "0.4"
 
 [features]
 default = []
-
